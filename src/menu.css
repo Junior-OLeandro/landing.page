@@ -1,0 +1,50 @@
+.header {
+    background-color: var(--color-main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.header .logo {
+    font-family: VT323, sans-serif;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.text-logo {
+    color: var(--color-logo);
+}
+
+.header .logo .span-logo {
+    color: var(--color-logo2);
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    font-size: 2rem;
+
+}
+
+.text-menu {
+    color: var(--color-logo);
+    padding: 15px;
+}
+
+.text-menu:hover {
+    background-color: var(--color-logo2);
+    color: var(--color-main);
+    transition: 0.3s ease;
+}
+
+.get-contact{
+    background-color: var(--color-logo);
+    color: var(--color-main);
+    border-radius: 10px;
+}
+
+.get-contact:hover{
+    background-color: var(--color-logo2);
+    transition: 0.3s ease;
+}

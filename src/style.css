@@ -3,81 +3,29 @@ html {
     font-size: 62.5%;
 }
 
-
-.header {
-    background-color: var(--color-main);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.header .logo {
-    font-family: VT323, sans-serif;
-    font-size: 4rem;
-    letter-spacing: 1px;
-}
-
-.text-logo {
-    color: var(--color-logo);
-}
-
-.header .logo .span-logo {
-    color: var(--color-logo2);
-}
-
-.menu {
-    display: flex;
-    gap: 30px;
-    font-size: 2rem;
-
-}
-
-.text-menu {
-    color: var(--color-logo);
-    padding: 15px;
-}
-
-.text-menu:hover {
-    background-color: var(--color-logo2);
-    color: var(--color-main);
-    transition: 0.3s ease;
-}
-
-.get-contact{
-    background-color: var(--color-logo);
-    color: var(--color-main);
-    border-radius: 10px;
-}
-
-.get-contact:hover{
-    background-color: var(--color-logo2);
-    transition: 0.3s ease;
-}
-
 .text-main {
     background-color: var(--color-logo2);
     color: var(--color-main);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding: 20px;
     font-size: 2rem;
 }
 
-.contet-main {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+section.content-main {
+    background: url(../src/images/bg-main.png) center center no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 79vh;
+    place-items: center;
+
 }
 
 
-.img-main {
-width: 100%;
-height: 600px;
-position: relative;
-
+.content-main .img-main {
+    max-width: 400px;
+    filter: drop-shadow(-10px -10px 10px rgba(0, 0, 0, 0.5));
 }
 
 .text-secundary {
@@ -85,13 +33,188 @@ position: relative;
     text-align: center;
     padding: 20px;
     max-width: 450px;
-    border: 1px solid var(--color-logo2);
-    border-radius: 10px;
+    border: 10px solid var(--color-logo2);
+    border-radius: 40px;
     background-color: rgb(185, 185, 185);
-    box-shadow: 0px 0px 10px rgb(26, 0, 153);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     color: var(--color-logo);
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-    position: absolute;
-    bottom: 130px;
-    right: 130px;
+
+}
+
+section.services {
+    background: url(../src/images/bg-main-invertido.png) center center no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 79vh;
+    place-items: center;
+
+}
+
+section.infos {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.infos .services-number{
+    color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+section.infos .services-number .projects-finish{
+    background-color: var(--color-logo);
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.infos .services-number .projects-finish .fas{
+    font-size: 50px;
+    color: var(--color-logo2);
+}
+
+section.infos .services-number .projects-visual{
+    background-color: var(--color-logo2);
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.infos .services-number .projects-visual .fas{
+    font-size: 50px;
+    color: var(--color-logo);
+}
+
+section.infos .services-number .client-satisfaction{
+    background-color: var(--color-logo);
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.infos .services-number .client-satisfaction .fas{
+    font-size: 5rem;
+    color: var(--color-logo2);
+}
+
+section.infos .services-number h4{
+    font-size: 2rem;
+}
+
+section.infos .services-number span{
+    font-size: 4rem;
+}
+
+section.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.services .img-services{
+    max-width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(185, 185, 185, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.services .img-services span{
+    font-size: 2rem;
+}
+
+.services .img-services img{
+    max-width: 100%;
+}
+
+section.projects {
+    background: url(../src/images/bg-main.png) center center no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 69vh;
+    place-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+section.projects .video-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(185, 185, 185, 0.7);
+}
+
+section.projects .video-projects .title-project{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--color-logo);
+}
+
+section.projects .video-projects .description-project{
+    font-size: 1.6rem;
+    letter-spacing: 0.4px;
+    word-spacing: 1.3px;
+}
+
+footer.footer {
+    height: 120px;
+    background-color: var(--color-logo2);
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer.footer .logo-footer a{
+    font-family: VT323, sans-serif;
+    font-size: 5rem;
+    letter-spacing: 1px;
+    color: rgb(185, 185, 185);
+}
+
+footer.footer .logo-footer a:hover{
+    color: var(--color-logo);
+    text-shadow: 0 0 10px rgba(185, 185, 185, 0.7);
+}
+
+footer.footer nav.contacts-footer ul{
+    display: flex;
+    gap: 20px;
+    font-size: 3.5rem;
+}
+
+footer.footer nav.contacts-footer ul a{
+    color: rgb(185, 185, 185);
+    display: inline-block;
+}
+
+footer.footer nav.contacts-footer ul a:hover{
+    color: var(--color-logo);
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(185, 185, 185, 0.7);
 }

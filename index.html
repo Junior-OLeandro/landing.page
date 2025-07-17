@@ -7,6 +7,10 @@
     <title>DIV.ADS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Tektur:wght@400..900&family=VT323&display=swap"
         rel="stylesheet">
@@ -17,36 +21,137 @@
 </head>
 
 <body>
-    <main>
-
+    <main id="home">
         <header class="header">
             <h1 class="logo">
-                <a href="#" class="text-logo">DEV<span class="span-logo">.ADS</span></a>
+                <a href="#home" class="text-logo">DEV<span class="span-logo">.ADS</span></a>
             </h1>
             <nav class="navigation">
                 <ul class="menu">
-                    <li><a href="#" class="text-menu">About</a></li>
-                    <li><a href="#" class="text-menu">Services</a></li>
-                    <li><a href="#" class="text-menu">Projects</a></li>
-                    <li><a href="#" class="text-menu">Contact</a></li>
-                    <li><a href="#" class="text-menu get-contact">Get Contact</a></li>
+                    <li><a href="#about" class="text-menu">Sobre</a></li>
+                    <li><a href="#services-info" class="text-menu">Serviços</a></li>
+                    <li><a href="#projects" class="text-menu">Projetos</a></li>
+                    <li><a href="#contact" class="text-menu">Contatos</a></li>
+                    <li><a href="https://wa.me/+5532985111330" class="text-menu get-contact" target="_blank">Informações</a></li>
                 </ul>
             </nav>
         </header>
-
-        <div class="text-main">
+        <div id="about" class="text-main">
             <h2 class="text-main-pitch">"Estruturamos seu futuro digital."</h2>
         </div>
+        <section class="content-main">
+            <div  class="img-main">
+                <img src="./src/images/img-main2.png" alt="imagem de código de site"></img>
+            </div>
+            <div class="text-secundary">
+                <p>Na DEV.ADS, acreditamos que um bom projeto nasce da estrutura. Por isso,
+                    usamos
+                    como inspiração a
+                    DEV.ADS, símbolo da organização e da base que sustenta grandes sistemas. Atuamos no desenvolvimento
+                    web
+                    com foco em performance, responsividade e soluções sob medida. Se seu projeto precisa de
+                    escalabilidade
+                    e identidade, fale com a gente.</p>
+            </div>
+        </section>
 
-        <div class="content-main">
-            <img class="img-main" src="./src/images/img-main.jpg"></img>
-            <p class="text-secundary">Na DEV.ADS, acreditamos que um bom projeto nasce da estrutura. Por isso, usamos como inspiração a
-                DEV.ADS, símbolo da organização e da base que sustenta grandes sistemas. Atuamos no desenvolvimento web
-                com foco em performance, responsividade e soluções sob medida. Se seu projeto precisa de escalabilidade
-                e identidade, fale com a gente.</p>
+        <section id="services-info" class="infos">
+            <div class="services-number">
+                <div class="projects-finish">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Projetos Finalizados</h4>
+                    <span>5</span>
+                </div>
+                <div class="projects-visual">
+                    <i class="fas fa-palette"></i>
+                    <h4>Projetos Visuais</h4>
+                    <span>25</span>
+                </div>
+                <div class="client-satisfaction">
+                    <i class="fas fa-grin-alt"></i>
+                    <h4>Clientes Satisfeitos</h4>
+                    <span>450</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div  class="img-services">
+                <span>Landing Pages</span>
+                <a href="#"><img src="./src/images/img-services/landing-page.png" alt="landing page"></img></a>
+            </div>
+            <div  class="img-services">
+                <span>Sistemas PDV</span>
+                <a href="#"><img src="./src/images/img-services/pdv.png" alt="sistemas pdv"></img></a>
+            </div>
+            <div  class="img-services">
+                <span>Identidade Visual</span>
+                <a href="#"><img src="./src/images/img-services/design.png" alt="identidade visual"></img></a>
+            </div>
+            <div  class="img-services">
+                <span>Google Analytics</span>
+                <a href="#"><img src="./src/images/img-services/google-analytcs.png" alt="google analytics"></img></a>
+            </div>
+        </section>
+
+        <div id="projects" class="text-main">
+            <h2 class="title-projects">Projetos</h2>
         </div>
 
-        <footer class="footer"></footer>
+        <section class="projects">
+
+            <div class="video-projects">
+                <h3 class="title-project">Landing Pages <br>Estratégicas</h3>
+                <iframe src="https://www.youtube.com/embed/6hBJR4kA5PI?si=Mr8OyCGB85XsXUq2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="description-project">Páginas de alta conversão desenvolvidas com foco em performance, responsividade e integração com campanhas de marketing digital.</p>
+            </div>
+
+            <div class="video-projects">
+                <h3 class="title-project">Sistemas PDV <br>sob medida</h3>
+                <iframe src="https://www.youtube.com/embed/D3igPVqg3V8?si=0vP7F5xFU5w7Pq-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="description-project">Desenvolvimento de sistemas para ponto de venda adaptados à rotina do seu negócio, com relatórios e controle de estoque.</p>
+            </div>
+
+            <div class="video-projects">
+                <h3 class="title-project">Criação de <br>Identidade Visual</h3>
+                <iframe src="https://www.youtube.com/embed/J3WOOX_LfkQ?si=I-O2T5Xqq2zFbVeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="description-project">Criação de logotipos, paleta de cores, tipografia e material gráfico alinhados à essência e posicionamento da sua marca.</p>
+            </div>
+
+            <div class="video-projects">
+                <h3 class="title-project">Monitoramento com <br>Google Analytics</h3>
+                <iframe src="https://www.youtube.com/embed/FuNwa_Bb4C0?si=YYr1DUN10VHHk10m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="description-project">Implementação de rastreamento avançado para compreender o comportamento dos usuários e otimizar estratégias de conversão.</p>
+            </div>
+            
+        </section>
+
+        <footer id="contact" class="footer">
+            <h4 class="logo-footer">
+                <a href="#home" class="text-logo">DEV<span class="span-logo">.ADS</span></a>
+            </h4>
+
+            <nav class="contacts-footer">
+                <ul>
+                    <li>
+                        <a class="contact-icons" href="https://www.linkedin.com/feed/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact-icons" href="https://www.instagram.com/junior.oleandro/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact-icons" href="https://github.com/Junior-OLeandro" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </footer>
 
     </main>
 </body>
