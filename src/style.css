@@ -152,7 +152,7 @@ section.projects {
     background: url(../src/images/bg-main.png) center center no-repeat;
     background-size: cover;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     height: 69vh;
     place-items: center;
     padding: 20px;
@@ -168,6 +168,7 @@ section.projects .video-projects{
     padding: 20px;
     background-color: rgba(185, 185, 185, 0.7);
 }
+
 
 section.projects .video-projects .title-project{
     font-size: 2rem;
@@ -208,9 +209,18 @@ footer.footer nav.contacts-footer ul{
     font-size: 3.5rem;
 }
 
+footer.footer nav.contacts-footer .title-contact{
+    font-family: VT323, sans-serif;
+    color: rgb(185, 185, 185);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 footer.footer nav.contacts-footer ul a{
     color: rgb(185, 185, 185);
     display: inline-block;
+    transition: 0.3s ease-in-out;
 }
 
 footer.footer nav.contacts-footer ul a:hover{
@@ -218,3 +228,4 @@ footer.footer nav.contacts-footer ul a:hover{
     transform: scale(1.2);
     text-shadow: 0 0 10px rgba(185, 185, 185, 0.7);
 }
+

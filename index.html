@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./src/style.css">
     <link rel="stylesheet" href="./src/variables.css">
     <link rel="stylesheet" href="./src/menu.css">
+    <link rel="stylesheet" href="./src/responsive.css">
 </head>
 
 <body>
@@ -27,12 +28,19 @@
                 <a href="#home" class="text-logo">DEV<span class="span-logo">.ADS</span></a>
             </h1>
             <nav class="navigation">
-                <ul class="menu">
+                <input type="checkbox" id="menu-hamburguer">
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <ul class="menu-main">
                     <li><a href="#about" class="text-menu">Sobre</a></li>
                     <li><a href="#services-info" class="text-menu">Serviços</a></li>
                     <li><a href="#projects" class="text-menu">Projetos</a></li>
                     <li><a href="#contact" class="text-menu">Contatos</a></li>
-                    <li><a href="https://wa.me/+5532985111330" class="text-menu get-contact" target="_blank">Informações</a></li>
+                    <li><a href="https://wa.me/+55329985111330" class="text-menu get-contact" target="_blank">Informações</a></li>
                 </ul>
             </nav>
         </header>
@@ -132,6 +140,7 @@
             </h4>
 
             <nav class="contacts-footer">
+                <h5 class="title-contact">Contatos:</h5>
                 <ul>
                     <li>
                         <a class="contact-icons" href="https://www.linkedin.com/feed/" target="_blank">
@@ -141,6 +150,11 @@
                     <li>
                         <a class="contact-icons" href="https://www.instagram.com/junior.oleandro/" target="_blank">
                             <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact-icons" href="https://wa.me/+55329985111330" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
                         </a>
                     </li>
                     <li>
