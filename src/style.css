@@ -13,7 +13,7 @@ html {
 
 
 section.content-main {
-    background: url(../src/images/./img-main/bg-main.png) center center no-repeat;
+    background: url(../src/images/img-main/bg-main.png) center center no-repeat;
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,7 +42,7 @@ section.content-main {
 }
 
 section.services {
-    background: url(../src/images/./img-main/bg-main-invertido.png) center center no-repeat;
+    background: url(../src/images/img-main/bg-main-invertido.png) center center no-repeat;
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -149,7 +149,7 @@ section.services{
 }
 
 section.projects {
-    background: url(../src/images/./img-main/bg-main.png) center center no-repeat;
+    background: url(../src/images/img-main/bg-main.png) center center no-repeat;
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
