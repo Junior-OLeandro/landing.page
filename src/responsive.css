@@ -1,6 +1,6 @@
 @media (max-width: 1500px) {
     section.projects {
-        background: url(../src/images/bg-main.png) center center no-repeat;
+        background: url(../src/images/img-main/bg-main.png) center center no-repeat;
         background-size: cover;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -11,7 +11,7 @@
 
 @media (max-width: 880px) {
     section.content-main {
-        background: url(../src/images/bg-main.png) center center no-repeat;
+        background: url(../src/images/img-main/bg-main.png) center center no-repeat;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -32,7 +32,7 @@
     }
 
     section.services {
-        background: url(../src/images/bg-main-invertido.png) center center no-repeat;
+        background: url(../src/images/img-main/bg-main-invertido.png) center center no-repeat;
         background-size: cover;
         height: 600px;
         place-items: center;
@@ -48,7 +48,7 @@
     }
 
     section.projects {
-        background: url(../src/images/bg-main.png) center center no-repeat;
+        background: url(../src/images/img-main/bg-main.png) center center no-repeat;
         background-size: cover;
         height: 1550px;
         display: flex;
